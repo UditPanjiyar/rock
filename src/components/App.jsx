@@ -14,8 +14,12 @@ import Register from "../auth/register";
 import { AuthProvider } from "../contexts/authContext";
 import Header from "./Header";
 import { QueryProvider } from "../contexts/queryContext";
+<<<<<<< HEAD
 import Bank from "./Bank";
 import EmiCalculator from "./EmiCalculator";
+=======
+import Scholarship from "./Scholarship";
+>>>>>>> b89da44e010f6c0c706ba1d399c4833115fc1cdd
 
 
 // import "@fontsource/poppins"; // Defaults to weight 400
@@ -39,8 +43,12 @@ const App = () => {
 							<Route path="/querypage" element={<QueryPage />} />
 							<Route path="/mainpage" element={<MainPage />} />
 							<Route path="/Admin" element={<Admin />} />
+<<<<<<< HEAD
 							<Route path="/Bank" element={<Bank />} />
 							<Route path="/Emi" element={<EmiCalculator />} />
+=======
+							<Route path="/Scholarship" element={<Scholarship />} />
+>>>>>>> b89da44e010f6c0c706ba1d399c4833115fc1cdd
 							{/* <Route
             path="querypage"
             element={isLogin ? <QueryPage /> : <LoginPage />}
