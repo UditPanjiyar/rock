@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { useAuth } from "../contexts/authContext";
 import { doSignOut } from "../firebase/auth";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { FaRegUserCircle } from "react-icons/fa";
 import "../Styles/MainPage.css";
+// import "../Styles/Scholarship.css";
 import { TbTriangleFilled } from "react-icons/tb";
 
 function Header() {
@@ -37,7 +38,7 @@ function Header() {
 				CRS
 			</h2>
 			{userLoggedIn && (
-				<div className="userIcon relative flex">
+				<div className="userIcon relative flex items-center">
           
 					{userPassword=="Admin@123" && userName=="admin@gmail.com" && <button
 						className="p-2 rounded-md bg-blue-500 mr-4"
@@ -47,6 +48,8 @@ function Header() {
 					>
 						Admin
 					</button>}
+
+					<button className="pr-2"> <Link to={'/Scholarship'}>Scholarship Finder</Link></button>
 
 					{currentUser.photoURL ? (
 						<img

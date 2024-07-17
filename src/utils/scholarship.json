@@ -1,0 +1,198 @@
+[
+	{
+        "id": 0,
+		"category": "Open",
+		"scheme_name": "Rajarshee Chhatrapati Shahu Maharaj Shikshan Shulk Shishyavrutti Yojana (EBC)",
+		"criteria": [
+			"Maharashtra Domicile Students only",
+			"Income Below 8 Lakh",
+			"First and Second Children only"
+		],
+		"benefits": ["50% Tuition Fees"],
+		"fee_limit": 800000
+	},
+	{
+        "id": 1,
+		"category": "Open",
+		"scheme_name": "Dr. Punjabrao Deshmukh Vasatigruh Nirvah Bhatta Yojna (Hostel Maintenance)",
+		"criteria": [
+			"A) Small Land Holder or Registered Labor Certificate",
+			"B) Below Income 1 Lakh (Exclude Small Land Holder & Registered Labor)",
+			"Income 1.1 to 8 Lakh (Exclude Small Land Holder & Registered Labor) (500 students in District including 33% female candidates)"
+		],
+		"benefits": ["Rs. 30,000/-", "Rs. 10,000/-"],
+		"fee_limit": 800000
+	},
+	{
+        "id": 2,
+		"category": "EWS",
+		"scheme_name": "Rajarshee Chhatrapati Shahu Maharaj Shikshan Shulk Shishyavrutti Yojana (EBC)",
+		"criteria": [
+			"Maharashtra Domicile Students only",
+			"Income Below 8 Lakh",
+			"First and Second Children only"
+		],
+		"benefits": ["50% Tuition Fees"],
+		"fee_limit": 800000
+	},
+	{
+        "id": 3,
+		"category": "EWS",
+		"scheme_name": "Dr. Punjabrao Deshmukh Vasatigruh Nirvah Bhatta Yojna (Hostel Maintenance)",
+		"criteria": [
+			"A) Small Land Holder or Registered Labor Certificate",
+			"B) Below Income 1 Lakh (Exclude Small Land Holder & Registered Labor)",
+			"Income 1.1 to 8 Lakh (Exclude Small Land Holder & Registered Labor) (500 students in District including 33% female candidates)"
+		],
+		"benefits": ["Rs. 30,000/-", "Rs. 10,000/-"],
+		"fee_limit": 100000
+	},
+	{
+        "id": 4,
+		"category": "TFWS",
+		"scheme_name": "Dr. Punjabrao Deshmukh Vasatigruh Nirvah Bhatta Yojna (Hostel Maintenance)",
+		"criteria": [
+			"A) Small Land Holder or Registered Labor Certificate",
+			"B) Below Income 1 Lakh (Exclude Small Land Holder & Registered Labor)",
+			"Income 1.1 to 8 Lakh (Exclude Small Land Holder & Registered Labor) (500 students in District including 33% female candidates)"
+		],
+		"benefits": ["Rs. 30,000/-", "Rs. 10,000/-"],
+		"fee_limit": 100000
+	},
+	{
+        "id": 5,
+		"category": "SC",
+		"scheme_name": "Government of India Post-Matric Scholarship",
+		"criteria": [
+			"Maharashtra Domicile Students only",
+			"Caste Certificate and Caste Validity mandatory",
+			"Income upto 2.5 Lakh"
+		],
+		"benefits": [
+			"100% Tuition Fees & Examination Fees, Development Fees",
+			"Hosteller Student per month Rs. 1200/- (Annual Rs. 12,000)",
+			"Day Scholar Student per month Rs. 550/- (Annual Rs. 5500)"
+		],
+		"fee_limit": 250000
+	},
+	{
+        "id": 6,
+		"category": "SC",
+		"scheme_name": "Post-Matric Tuition Fee and Examination Fee (Freeship)",
+		"criteria": [
+			"Maharashtra Domicile Students only",
+			"Caste Certificate and Caste Validity mandatory",
+			"Income no limit"
+		],
+		"benefits": ["100% Tuition Fees & Examination Fees, Development Fees"],
+		"fee_limit": 9999999999
+	},
+	{
+        "id": 7,
+		"category": "ST",
+		"scheme_name": "Post Matric Scholarship Scheme (Government of India)",
+		"criteria": [
+			"Maharashtra Domicile Students only",
+			"Caste Certificate and Caste Validity mandatory",
+			"Income upto 2.5 Lakh"
+		],
+		"benefits": [
+			"100% Tuition Fees & Examination Fees",
+			"Hosteller Student per month Rs. 425/- (Annual Rs. 4250)",
+			"Day Scholar Student per month Rs. 190/- (Annual Rs. 1900)"
+		],
+		"fee_limit": 250000
+	},
+	{
+        "id": 8,
+		"category": "ST",
+		"scheme_name": "Post Matric Scholarship Scheme (Government of India)",
+		"criteria": [
+			"Maharashtra Domicile Students only",
+			"Caste Certificate and Caste Validity mandatory",
+			"Income upto 2.5 Lakh"
+		],
+		"benefits": ["100% Tuition Fees & Examination Fees"],
+		"fee_limit": 9999999999
+	},
+	{
+        "id": 9,
+		"category": "SBC / VJ-NT",
+		"scheme_name": "Post Matric Scholarship to VJNT / SBC students",
+		"criteria": [
+			"Maharashtra Domicile Students only",
+			"Caste Certificate and Caste Validity mandatory",
+			"Income upto 1.5 Lakh"
+		],
+		"benefits": ["100% Tuition Fees & Examination Fees"],
+		"fee_limit": 150000
+	},
+	{
+        "id": 10,
+		"category": "SBC / VJ-NT",
+		"scheme_name": "Post Matric Scholarship to VJNT / SBC students",
+		"criteria": [
+			"Maharashtra Domicile Students only",
+			"Caste Certificate and Caste Validity mandatory",
+			"Income upto 1.5 Lakh"
+		],
+		"benefits": [
+			"100% Tuition Fees & Examination Fees",
+			"Hosteller Student per month Rs. 425/- (Annual Rs. 4250)",
+			"Day Scholar Student per month Rs. 190/- (Annual Rs. 1900)"
+		],
+		"fee_limit": 800000
+	},
+	{
+        "id": 11,
+		"category": "OBC",
+		"scheme_name": "Post Matric Scholarship to OBC students",
+		"criteria": [
+			"Maharashtra Domicile Students only",
+			"Caste Certificate and Caste Validity mandatory",
+			"Income upto 1.5 Lakh"
+		],
+		"benefits": [
+			"50% Tuition Fees & Examination Fees",
+			"Hosteller Student per month Rs. 425/- (Annual Rs. 4250)",
+			"Day Scholar Student per month Rs. 190/- (Annual Rs. 1900)"
+		],
+		"fee_limit": 150000
+	},
+	{
+        "id": 12,
+		"category": "OBC",
+		"scheme_name": "Tuition Fees & Exam Fees to OBC students",
+		"criteria": [
+			"Maharashtra Domicile Students only",
+			"Caste Certificate and Caste Validity mandatory",
+			"Income 1.5 to 8 Lakh"
+		],
+		"benefits": ["50% Tuition Fees & Examination Fees"],
+		"fee_limit": 800000
+	},
+	{
+        "id": 13,
+		"category": "Muslim, Sikh, Christian, Jain & Parsi",
+		"scheme_name": "State Minority",
+		"criteria": [
+			"Applicant should be Domicile of Maharashtra State and Passed S.S.C from Maharashtra State only.",
+			"Income Below 8 Lakh.",
+			"Applicant should not avail any other scholarship / stipend"
+		],
+		"benefits": ["Maximum Rs. 50,000/-"],
+		"fee_limit": 800000
+	},
+	{
+        "id": 14,
+		"category": "Muslim, Sikh, Christian, Jain & Parsi",
+		"scheme_name": "Central Minority (Merit-cum-Means Based Scholarship)",
+		"criteria": [
+			"An Indian national student, domicile of Maharashtra will be entitled for scholarship under the quota of Maharashtra only irrespective of his place of study.",
+			"Admission to the course should be through Common Entrance Test or obtained minimum 50% marks at qualifying examination.",
+			"The total annual income of family / guardian should not be more than 2.50 Lakh."
+		],
+		"benefits": ["Maximum Rs. 30,000/-"],
+		"fee_limit": 250000
+	}
+]
