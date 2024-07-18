@@ -53,6 +53,7 @@ function Header() {
 					<button className="pr-12"> <Link to={'/Scholarship'}>Scholarship Finder</Link></button>
 					<button className="pr-12"> <Link to={'/Bank'}>Apply Loan</Link></button>
 					<button className="pr-12"> <Link to={'/Emi'}>EMI Calculator</Link></button>
+					<button className="pr-12"> <Link to={'/SavingsPlan'}>Monthly Savings Plan</Link></button>
 
 					{currentUser.photoURL ? (
 						<img

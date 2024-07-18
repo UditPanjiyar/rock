@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Monthly Savings Plan Styles */
+  .monthly-savings-plan {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .monthly-savings-plan h2 {
+    font-size: 26px;
+    color: #007bff;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input[type="number"],
+  .input-group input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  .input-group input[type="number"]:focus,
+  .input-group input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .input-group button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .input-group button:hover {
+    background-color: #0056b3;
+  }
+  
+  .expense {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+  }
+  
+  .expense:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .expense h3 {
+    font-size: 22px;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .expense .input-group {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .expense .input-group label {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .expense .input-group input[type="number"],
+  .expense .input-group input[type="text"] {
+    flex: 2;
+  }
+  
+  .expense .result p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .expense button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-end;
+  }
+  
+  .expense button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Savings Plan Table Styles */
+  .savings-plan-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .savings-plan-table th,
+  .savings-plan-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .savings-plan-table th {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .savings-plan-table td {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .savings-plan-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 0 0 15px 15px;
+  }

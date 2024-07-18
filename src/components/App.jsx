@@ -18,7 +18,7 @@ import Bank from "./Bank";
 import EmiCalculator from "./EmiCalculator";
 import Scholarship from "./Scholarship";
 import Chatbot from "./Chatbot";
-
+import MonthlySavingsPlan from "./MonthlySavingsPlan";
 
 // import "@fontsource/poppins"; // Defaults to weight 400
 // import "@fontsource/poppins/400.css"; // Specify weight
@@ -45,6 +45,8 @@ const App = () => {
 							<Route path="/Bank" element={<Bank />} />
 							<Route path="/Emi" element={<EmiCalculator />} />
 							<Route path="/Scholarship" element={<Scholarship />} />
+							<Route path="/SavingsPlan" element={<MonthlySavingsPlan />} />
+							
 							{/* <Route
             path="querypage"
             element={isLogin ? <QueryPage /> : <LoginPage />}
