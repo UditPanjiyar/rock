@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f2f5;
+    /* background-color: #f0f2f5; */
     color: #333;
     margin: 0;
     padding: 0;
@@ -130,7 +130,7 @@ body {
   .savings-plan-table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin:auto;
   }
   
   .savings-plan-table th,

@@ -11,6 +11,8 @@ function Header() {
 	const { currentUser, userLoggedIn, userName, userPassword } = useAuth();
 	const [showUserDetails, setShowUserDetails] = useState(false);
 
+	console.log("Current USER: ", currentUser)
+
 	const navigate = useNavigate();
 
 	const toggleUserDetails = () => {
@@ -40,7 +42,7 @@ function Header() {
 			{userLoggedIn && (
 				<div className="userIcon relative flex items-center">
           
-					{userPassword=="Admin@123" && userName=="admin@gmail.com" && <button
+					{currentUser.email==="admin@gmail.com" && <button
 						className="p-2 rounded-md bg-blue-500 mr-4"
 						onClick={() => {
 							navigate("/Admin");
