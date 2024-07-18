@@ -54,6 +54,12 @@
     position: absolute;
 }
 
+.outer.user {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
 .message.user {
     position: relative;
     background: #6a11cb;
