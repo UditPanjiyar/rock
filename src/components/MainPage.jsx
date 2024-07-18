@@ -213,7 +213,7 @@ const MainPage = () => {
           {/* ########################### Percentile ############################## */}
           <div style={{ display: "flex" }}>
             <div style={{ flex: "64%" }}>
-              <label htmlFor="percentile">Percentile:</label>
+              <label htmlFor="percentile" className="text-black">Percentile:</label>
               <input
                 className="query-input"
                 type="text"
@@ -237,7 +237,7 @@ const MainPage = () => {
             {/* ########################### Rank ############################## */}
 
             <div>
-              <label htmlFor="rank">Rank:</label>
+              <label htmlFor="rank" className="text-black">Rank:</label>
               <input
                 className="query-input"
                 type="text"
@@ -255,14 +255,14 @@ const MainPage = () => {
 
           {/* ########################### Exam type ############################## */}
 
-          <label htmlFor="exam">Select Exam:</label>
+          <label htmlFor="exam" className="text-black">Select Exam:</label>
           <select name="exam" id="exam" className="query-input">
             <option>MHT-CET</option>
             <option disabled={true}>JEE</option>
           </select>
 
           {/* ########################### Year List ############################## */}
-          <label htmlFor="year">Cutoff year:</label>
+          <label htmlFor="year" className="text-black">Cutoff year:</label>
           <select
             className="query-input"
             id="year"
@@ -282,7 +282,7 @@ const MainPage = () => {
 
           {/* ########################## Gender ########################## */}
 
-          <label htmlFor="gender">Gender: </label>
+          <label htmlFor="gender" className="text-black">Gender: </label>
 
           {/* select gender */}
           <select
@@ -305,7 +305,7 @@ const MainPage = () => {
           <label
             htmlFor="category"
             id="categoryLabel"
-            className="hide"
+            className="hide text-black"
             style={{ display: "block" }}
           >
             Select Category:
@@ -332,7 +332,7 @@ const MainPage = () => {
           <label
             htmlFor="round"
             id="roundLabel"
-            className="hide"
+            className="hide text-black"
             style={{ display: "block" }}
           >
             Select Round:
@@ -359,7 +359,7 @@ const MainPage = () => {
           </select>
 
           {/* ############################### Branch List ############################### */}
-          <label htmlFor="branch">Select Branch:</label>
+          <label htmlFor="branch" className="text-black">Select Branch:</label>
           <select
             id="branch"
             className="query-input"
@@ -375,7 +375,7 @@ const MainPage = () => {
           </select>
 
           {/* ############################### College List ############################### */}
-          <label htmlFor="collegeSearch">Search College:</label>
+          <label htmlFor="collegeSearch" className="text-black">Search College:</label>
           <input
             className="query-input"
             type="text"
@@ -400,7 +400,7 @@ const MainPage = () => {
           </datalist>
 
           {/* ######################## Result Display Limit ######################### */}
-          <label htmlFor="numRows">Result Display Limit:</label>
+          <label htmlFor="numRows" className="text-black">Result Display Limit:</label>
           <input
             className="query-input"
             type="number"
@@ -417,7 +417,7 @@ const MainPage = () => {
           />
 
           {/* ####################################### Home University ############################################ */}
-          <label htmlFor="branch">Select Home University: </label>
+          <label htmlFor="branch" className="text-black">Select Home University: </label>
           <select
             id="university"
             className="query-input"

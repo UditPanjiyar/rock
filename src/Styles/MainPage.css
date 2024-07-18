@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 :root {
     /* body colors */
     --body-bg-color: #00ffff;
@@ -523,12 +526,6 @@ label #cancel {
     margin-top: -71px;
     margin-right: 49px;
 }
-
-
-
-
-
-
 
 
 
