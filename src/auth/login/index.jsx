@@ -119,7 +119,7 @@ const Login = () => {
             onClick={(e) => {
               onGoogleSignIn(e);
             }}
-            className={`w-full flex items-center justify-center gap-x-3 py-2.5 border rounded-lg text-sm font-medium with-google-div ${
+            className={`w-full flex text-black items-center justify-center gap-x-3 py-2.5 border rounded-lg text-sm font-bold with-google-div ${
               isSigningIn
                 ? "cursor-not-allowed"
                 : "hover:bg-gray-100 transition duration-300 active:bg-gray-100"
