@@ -48,8 +48,11 @@ function Header() {
 					>
 						Admin
 					</button>}
-
-					<button className="pr-2"> <Link to={'/Scholarship'}>Scholarship Finder</Link></button>
+					
+					<button className="pr-12"> <Link to={'/mainPage'}>Home</Link></button>
+					<button className="pr-12"> <Link to={'/Scholarship'}>Scholarship Finder</Link></button>
+					<button className="pr-12"> <Link to={'/Bank'}>Apply Loan</Link></button>
+					<button className="pr-12"> <Link to={'/Emi'}>EMI Calculator</Link></button>
 
 					{currentUser.photoURL ? (
 						<img

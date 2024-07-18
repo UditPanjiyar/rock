@@ -11,7 +11,8 @@
 
 :root {
   /* body colors */
-  --body-bg-color: #00ffff;
+  /* --body-bg-color: #00ffff; */
+  --body-bg-color: #0A5A72;
   --file-background-color: #00fff700;
   --heading-color: #001a1a;
   --form-background-color: #f7f7f7;
