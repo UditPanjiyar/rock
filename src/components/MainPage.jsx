@@ -101,7 +101,7 @@ const MainPage = () => {
     setErrorUserInput(null);
     e.preventDefault();
 
-    if (!percentile) {
+    if (!percentile || !rank) {
       setErrorMessage("Enter percentile/rank");
       return;
     }
